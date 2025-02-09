@@ -7,7 +7,7 @@
                     "start": "Début de la migration",
                     "cancel": "Annuler",
                     "content": {
-                        "modules": "Le(s) module(s) suivant(s) pourrait avoir besoin de migrer les données :",
+                        "modules": "Le(s) module(s) suivant(s) pourrai(en)t avoir besoin de migrer les données :",
                         "wait": "Si le système est en train de migrer ses propres données veuillez attendre avant de débuter."
                     }
                 },
@@ -48,7 +48,7 @@
             },
             "nextShortcutsSet": {
                 "name": "Fixer les prochains raccourcis",
-                "hint": "Changer pour les reccourcis suivants."
+                "hint": "Changer pour les raccourcis suivants."
             }
         },
         "settings": {
@@ -89,8 +89,8 @@
             "sidebar": {
                 "title": "Sous-menus",
                 "hideUntrained": {
-                    "name": "Cacher Inexpérimenté",
-                    "hint": "Est-ce que vous voulez afficher les actions de compétence des sous-menus si le personnage n'en a pas la qualification."
+                    "name": "Cacher si inexpérimenté",
+                    "hint": "Est-ce que vous voulez afficher les actions de compétence des sous-menus si le personnage n'est pas qualifié avec ?"
                 },
                 "fontSize": {
                     "name": "Taille de police",
@@ -303,7 +303,11 @@
                 }
             },
             "resources": {
-                "title": "Suivi de ressources"
+                "title": "Suivi de ressources",
+                "offlines": {
+                    "name": "Montrer hors ligne",
+                    "hint": "Montrer les ressources partagées des utilisateurs hors ligne également."
+                }
             },
             "time": {
                 "title": "Compteur de temps",
@@ -470,7 +474,7 @@
             },
             "annotation": {
                 "pick-up": "Ramasser",
-                "retrieve": "récupérer",
+                "retrieve": "Récupérer",
                 "sheathe": "Rengainer",
                 "draw": "Dégainer"
             },
